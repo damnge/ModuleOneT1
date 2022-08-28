@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Sigmar+One&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #6C8F9E;
+}
+
+h1, h2, h3, h4, h5, a {
+  font-family: "Sigmar One", cursive;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: rgb(98, 98, 98);
+  font-size: 17px;
+}
+
+.mynav {
+  overflow: hidden;
+  background-color: #EBDECF;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 15px 50px 15px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mynav div {
+  display: flex;
+  align-items: center;
+}
+
+.mynav div a {
+  color: #6C8F9E;
+  text-align: center;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#logo img {
+  max-width: 200px;
+}
+
+.mynav a:hover {
+  color: rgb(102, 102, 102);
+}
+
+.dog-title {
+  font-size: 65px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+section img {
+  max-width: 600px;
+}
+
+article {
+  max-width: 600px;
+}
+
+.sub-title {
+  margin-bottom: 25px;
+  font-size: 33px;
+}
+
+button {
+  background-color: #6C8F9E;
+  border: none;
+  color: white;
+  border: 2px solid #6C8F9E;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+}
+
+button:hover {
+  background-color: white;
+  color: #6C8F9E;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+footer {
+  width: 100%;
+  clear: both;
+  position: relative;
+  background-color: #EBDECF;
+  margin: -1px 0 0 0;
+  bottom: 0;
+  min-height: 150px;
+  padding: 25px 25px 10px 25px;
+}
+
+.social-media {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.social-media a {
+  padding: 20px;
+}
+
+.social-media a img {
+  width: 40px;
+  color: #6C8F9E;
+}
+
+.footer-logo img {
+  max-width: 150px;
+  padding: 50px 0 0 50px;
+}/*# sourceMappingURL=style.css.map */
